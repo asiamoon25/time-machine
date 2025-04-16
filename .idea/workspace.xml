@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfc84832-0fab-44ef-9723-dcd6124a488d" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_algorithm/math/n까지의_합계_구하기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_algorithm/math/최대값_최솟값_구하기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/time-machine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_algorithm/geometry/벌집.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_algorithm/geometry/세막대.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_algorithm/geometry/터렛.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_algorithm/math/에라토스테네스의_체/에라토스테네스의_체.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_algorithm/숫자_각_자릿수_더하기/셀프_넘버.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_algorithm/math/소수_구하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_algorithm/math/소수_구하기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_algorithm/math/최대공약수_최소공배수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_algorithm/math/최대공약수_최소공배수.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +28,37 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="branch/company" />
+                    <option name="lastUsedInstant" value="1744691959" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1744691958" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="2viZgufDHUBQlJngYPRdYY7wlFQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,21 +67,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "branch/company",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "프로젝트",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.색 구성표 글꼴",
+    "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="애플리케이션.벌집">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -83,6 +116,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="세막대" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_algorithm.geometry.세막대" />
+      <module name="time-machine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_algorithm.geometry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="터렛" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_algorithm.geometry.터렛" />
+      <module name="time-machine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_algorithm.geometry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="벌집" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_algorithm.geometry.벌집" />
+      <module name="time-machine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_algorithm.geometry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="소수_구하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_algorithm.math.소수_구하기" />
+      <module name="time-machine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_algorithm.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.벌집" />
+        <item itemvalue="애플리케이션.터렛" />
+        <item itemvalue="애플리케이션.세막대" />
+        <item itemvalue="애플리케이션.소수_구하기" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -93,10 +186,17 @@
       <option name="presentableId" value="Default" />
       <updated>1744629972542</updated>
       <workItem from="1744629973527" duration="2070000" />
+      <workItem from="1744691772675" duration="108000" />
+      <workItem from="1744691889181" duration="7358000" />
+      <workItem from="1744765696646" duration="14623000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
