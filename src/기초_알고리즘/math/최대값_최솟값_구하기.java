@@ -1,4 +1,4 @@
-package basic_algorithm.math;
+package 기초_알고리즘.math;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

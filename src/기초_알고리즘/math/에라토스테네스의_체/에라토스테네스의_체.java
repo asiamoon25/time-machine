@@ -1,4 +1,4 @@
-package basic_algorithm.math.에라토스테네스의_체;
+package 기초_알고리즘.math.에라토스테네스의_체;
 
 import java.util.List;
 

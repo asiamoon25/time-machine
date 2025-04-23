@@ -7,19 +7,33 @@ import java.io.InputStreamReader;
 import java.util.Stack;
 
 public class 제로_10773 {
-
-    //이거 완전 stack 아닌가..
-
     public static void main(String[] args) {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         Stack<Integer> stack = new Stack<>();
         try{
+            String input = br.readLine();
 
+            Integer K = Integer.parseInt(input);
+
+            for(int i = 0; i < K; i++) {
+                int n = Integer.parseInt(br.readLine());
+
+                if(n != 0){
+                    stack.push(n);
+                } else {
+                    stack.pop();
+                }
+            }
+
+            int result = stack.stream()
+                    .mapToInt(Integer::intValue)
+                    .sum();
+
+            System.out.println(result);
         }catch(Exception e) {
             e.printStackTrace();
         }
     }
-
 }
 /*
 나코더 기장 재민이는 동아리 회식을 준비하기 위해서 장부를 관리하는 중이다.
