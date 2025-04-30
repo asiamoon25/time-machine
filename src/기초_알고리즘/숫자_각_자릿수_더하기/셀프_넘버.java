@@ -1,4 +1,4 @@
-package basic_algorithm.숫자_각_자릿수_더하기;
+package 기초_알고리즘.숫자_각_자릿수_더하기;
 
 import java.util.List;
 
